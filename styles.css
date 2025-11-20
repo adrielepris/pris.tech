@@ -13,13 +13,13 @@ html,body{margin:0;padding:0;font-family:Poppins,system-ui,-apple-system,Segoe U
 .wrap{max-width:1100px;margin:0 auto;padding:0 16px}
 .header{display:flex;align-items:center;justify-content:space-between;background:var(--brand);color:#fff;padding:14px 0}
 .brand{display:flex;align-items:center;gap:12px}
-.brand .logo{height:42px}
+.brand .logo{height:60px}
 .titles h1{margin:0;font-size:20px;font-weight:700}
 .titles h1 span{color:var(--accent)}
 .subtitle{margin:2px 0 0;opacity:.85;font-size:12px}
 .hero{display:flex;align-items:center;justify-content:center;background:linear-gradient(120deg,var(--brand),var(--brand2));padding:28px 0;margin-bottom:12px;color:#fff;border-bottom:4px solid var(--accent)}
 .logo-card{display:flex;flex-direction:column;align-items:center;gap:8px}
-.logo-hero{width:96px;height:96px}
+.logo-hero{width:500px;height:96px}
 .logo-caption{opacity:.95}
 
 .topbar{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid #e7e7ee}
@@ -54,7 +54,7 @@ html,body{margin:0;padding:0;font-family:Poppins,system-ui,-apple-system,Segoe U
 .footer{margin-top:28px;padding:16px 0;text-align:center;background:var(--brand);color:#fff}
 
 /* Floating Instagram Button */
-.fab{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border:none;border-radius:50%;background:#E1306C;color:#fff;
+.fab{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border:none;border-radius:50%;background:#2b16e6;color:#fff;
 display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.22);cursor:pointer;font-size:22px}
 .fab:hover{transform:scale(1.06)}
 .fab:active{transform:scale(.98)}
